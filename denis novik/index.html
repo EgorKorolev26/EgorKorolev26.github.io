@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&family=PT+Sans&family=Tinos:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link href="media-queries.css" rel="stylesheet" type="text/css">
+	<title>Denis Novak</title>
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<section class="container">
+				<ul class="navigation">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About me</a></li>
+					<li><a href="#">Skills</a>
+					<li><a href="#">Portfolio</a>
+					<li><a href="#">Contacts</a>
+				</ul>
+
+				<div class="burger-menu">
+					<button id="burger">
+						<img src="img/burger.svg" alt=""></button>
+					<div id="menu" class="burger-slide disp">
+						<a class='nav-item' href="#">Home</a>
+						<a class='nav-item' href="#">About me</a>
+						<a class='nav-item' href="#">Skills</a>
+						<a class='nav-item' href="#">Portfolio</a>
+						<a class='nav-item' href="#">Contacts</a>
+
+					</div>
+				</div>
+
+			</section>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<section class="title">
+				<h2>Denis <br>
+					Novik</h2>
+				<h3>UX | UI designer <br>
+					24 years old, Minsk</h3>
+				<h4>RU <span>| ENG</span></h4>
+			</section>
+
+			<section class="photo">
+
+				<img class="photo-img-adapt" src="img/photo-adapt.jpg" alt="">
+
+			</section>
+
+		</div>
+		<section class="info">
+			<h2>About me</h2>
+			<p>Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with
+				it.
+			</p>
+			<p>I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy. </p>
+			<p>Ready to implement
+				excellent
+				projects <br> with wonderful people.</p>
+		</section>
+
+		<div class="container">
+			<section class="skills">
+				<h2>Skills</h2>
+				<h3>I work in such programs as</h3>
+			</section>
+			<section class="soft">
+
+				<img class="img_ada" src="img/ps.svg" alt="">
+				<img class="img_ada" src="img/ai.svg" alt="">
+
+				<img class="img_ada" src="img/ae.svg" alt="">
+				<img class="img_ada" src="img/figma.svg" alt="">
+
+			</section>
+		</div>
+		<section class="portfolio">
+			<section class="container">
+				<section class="portfolio_title">
+					<h2>Portfolio</h2>
+
+				</section>
+				<section class="portfolio-images">
+					<img class="img_ad" src="img/img1.jpg" alt="">
+					<p>Online fashion store - Homepage</p>
+					<img class="img_ad" src="img/img2.jpg" alt="">
+					<p>Reebok Store - Concept</p>
+					<img class="img_ad" src="img/img3.jpg" alt="">
+					<p>Braun Landing Page - Concept</p>
+				</section>
+			</section>
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<section class="contacts_items">
+					<h2>Contacts</h2>
+					<p>Want to know more or just chat?<br>
+						You are welcome!</p>
+
+					<button class="btn" id="open-pop-up">
+						Send message
+					</button>
+
+					<div class="social">
+						<a class="soc-img" href="#"><img src="img/Group 1.png" alt=""></a>
+						<a class="soc-img" href="#"><img src="img/Group 2.png" alt=""></a>
+						<a class="soc-img" href="#"><img src="img/Group3.png" alt=""></a>
+						<a class="soc-img" href="#"><img src="img/Group 4.png" alt=""></a>
+					</div>
+
+					<p>Like me on <br>
+						LinkedIn, Instagram, Behance, Dribble</p>
+
+				</section>
+				</d>
+		</section>
+
+
+		<div class="pop-up" id="pop-up">
+			<div class="pop-up-container">
+				<div class="pop-up-body" id="pop-up-body">
+					<p>Отправить сообщение</p>
+					<form action="">
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Телефон">
+						<button>Отправить сообщение</button>
+						<div class="pop-up-close" id="pop-up-close">
+							&#10006
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+
+	</main>
+	<footer class="footer">
+		<p>Copyright 2022</p>
+	</footer>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
