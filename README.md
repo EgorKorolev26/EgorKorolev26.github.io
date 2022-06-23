@@ -1,2 +1,2 @@
-# EgorKorolev26.github.io
+# Egor Korolev
 Мои работы
