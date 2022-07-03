@@ -1,0 +1,566 @@
+$color-h1: #eeee;
+
+%Text-h {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 59px;
+	color: #FFFFFF;
+}
+
+%Text-p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #C0C0C0;
+}
+
+//кнопка read more
+%btn {
+	padding: 9px 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 14px;
+	background-color: #fff;
+	font-family: 'Poppins';
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: 400;
+
+}
+
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	overflow-x: hidden
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+//Шапка
+.header {
+	background-color: #000;
+
+
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.header-main {
+
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.nav-text {
+	@extend %Text-h;
+	font-size: 13px;
+	margin-right: 56px;
+	text-decoration: none;
+	transition: linear 0.1s;
+}
+
+.nav-text:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.button-header {
+	padding: 9px 20px;
+	border-radius: 14px;
+	background-color: #fff;
+	font-size: 16px;
+}
+
+//Главная страница
+.main {
+	background-image: url(img/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title-main {
+	padding-top: 450px;
+	text-align: center;
+}
+
+.title-main>h3 {
+	@extend %Text-h;
+}
+
+.title-main>h1 {
+	@extend %Text-h;
+	font-size: 54px;
+}
+
+.title-main>p {
+	@extend %Text-p;
+	width: 65%;
+	margin-left: 17%;
+}
+
+//Иконки
+.icons {
+	display: flex;
+	justify-content: end;
+}
+
+.icon-item {
+	@extend %Text-h;
+	display: flex;
+	margin-right: 16px;
+}
+
+.icon-img {
+	margin-right: 5px;
+}
+
+.about-us {
+	background-color: #000;
+}
+
+//2 секция
+.title {
+	padding-top: 70px;
+	text-align: center
+}
+
+.title>h2 {
+	@extend %Text-h;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+.title>p {
+	@extend %Text-p;
+	font-size: 23px;
+	padding-bottom: 42px;
+}
+
+//Блоки
+.bloks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.block {
+	width: 49%;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+.block-1 {
+	background-image: url(img/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.block-2 {
+	background-image: url(img/img2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.block-3 {
+	background-image: url(img/img3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.block-4 {
+	background-image: url(img/img4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title-block {
+	padding-top: 421px
+}
+
+.title-block>h2 {
+	@extend %Text-h;
+}
+
+.title-block>p {
+	@extend %Text-p;
+}
+
+.btn {
+	@extend %btn;
+}
+
+//2 секция
+
+.section-two {
+	background-image: url(img/fuji-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info {
+	margin-left: 75%;
+}
+
+.title-second {
+	padding-top: 250px;
+
+
+}
+
+.title-second>h3 {
+	@extend %Text-h;
+}
+
+.title-second>p {
+	@extend %Text-p;
+
+}
+
+.icon-two {
+	margin-top: 204px;
+	padding-bottom: 40px;
+}
+
+//секция 3
+
+.gears {
+	display: flex;
+}
+
+//первый блок
+.gears-one {
+	background-color: #000;
+	width: 50%;
+	padding: 170px 100px 100px;
+}
+
+.gear-title>h3 {
+	@extend %Text-p;
+}
+
+.gear-title>h2 {
+	@extend %Text-h;
+	font-size: 28px;
+}
+
+.gear-title>p {
+	@extend %Text-p;
+}
+
+.btn-gear {
+	margin-top: 20px;
+}
+
+//второй блок
+.gears-two {
+	background-image: url(img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.icons-three {
+	display: flex;
+	padding-top: 450px;
+	margin-right: 20%;
+	padding-bottom: 45px;
+}
+
+//секция 4
+
+.section-four {
+	background-image: url(img/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+//секция 5
+
+.section-five {
+	background-color: #000;
+}
+
+.our-clinets {
+	padding-top: 50px;
+}
+
+.client-images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+	padding-bottom: 140px;
+}
+
+//секция 6
+.section-six {
+	background-image: url(img/bg5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+//секция 7
+
+.section-seven {
+	background-color: #000;
+}
+
+.helps {
+	text-align: center;
+}
+
+//секция информации
+
+.section-info {
+	background-color: #000;
+}
+
+//ссылки
+.taps {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 36px;
+	border-bottom: 2px solid #fff;
+}
+
+.taps-img-logo {
+	padding-bottom: 20px;
+}
+
+.taps-logo>p {
+	@extend %Text-p;
+}
+
+.links {
+	display: flex;
+
+}
+
+.column1 {
+	margin-left: 90px;
+}
+
+.column1>p {
+	@extend %Text-p;
+	padding-bottom: 10px;
+}
+
+.column2 {
+	margin-left: 90px;
+}
+
+.column2>p {
+	@extend %Text-p;
+	padding-bottom: 10px;
+}
+
+.link {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.link:hover {
+	border-bottom: 1px solid #fff;
+}
+
+
+// подписка
+.subscribe {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #fff;
+	align-items: center;
+}
+
+.sub-title {
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+.sub-title>h2 {
+	@extend %Text-h;
+}
+
+.sub-title>p {
+	@extend %Text-p;
+}
+
+.contacts-form {
+	position: relative;
+
+
+}
+
+.input_email {
+	width: 450px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	border-radius: 12px;
+	font-size: 23px
+}
+
+
+.input_email::placeholder {
+	color: #000000;
+	font-family: 'Poppins';
+}
+
+
+.contacts-button {
+	font-family: 'Poppins';
+	position: absolute;
+	background-color: transparent;
+	font-size: 13px;
+	right: 0;
+	margin-right: 20px;
+	top: 30%;
+
+	padding-left: 25px;
+	padding-right: 25px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+//футер
+
+.footer {
+	background-color: #000;
+	padding-top: 56px;
+}
+
+.footer-items {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+
+.footer-items>p {
+	@extend %Text-p;
+}
+
+.footer-icon {
+	margin-right: 20px;
+}
+
+
+//бургер
+
+.burger-menu {
+	display: none;
+}
+
+.disp {
+	display: none;
+}

@@ -1,0 +1,143 @@
+@media screen and (max-width: 1010px) {
+	.nav-text {
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: 805px) {
+	.navigation {
+		display: none;
+	}
+
+	.burger-menu {
+		display: block;
+	}
+
+	.gears {
+		display: block;
+	}
+
+	.gears-one {
+		width: 100%;
+	}
+
+	.gears-two {
+		width: 100%;
+	}
+
+	.client-images {
+		display: block;
+		text-align: center;
+
+	}
+
+	.client-img {
+		width: 70%;
+		margin-top: 30px;
+
+	}
+}
+
+@media screen and (max-width: 701px) {
+	.info {
+		margin-left: 50%;
+	}
+
+	.subscribe {
+		display: block;
+		text-align: center;
+	}
+
+	.contacts-button {
+		width: auto;
+		height: auto;
+		margin-right: 15%;
+	}
+
+	.contacts-form {
+		margin-bottom: 56px;
+	}
+
+	.footer-items {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-icons {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.bloks {
+		display: block;
+	}
+
+	.block {
+		width: 100%;
+	}
+
+	.icons-three {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.taps {
+		display: block;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.links {
+		display: block;
+		margin-right: 27%;
+	}
+
+	.column1 {
+		padding-top: 30px;
+	}
+
+	.column2 {
+		padding-top: 30px;
+	}
+
+	.footer-items {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-icons {
+		margin-top: 30px;
+	}
+
+	.input_email {
+		width: 100%;
+		font-size: 13px
+	}
+
+	.icons-three {
+		text-align: center;
+
+	}
+
+	.contacts-button {
+		width: auto;
+		height: auto;
+		margin-right: 5%;
+	}
+}
+
+
+@media screen and (max-width: 350px) {
+	.input_email {
+		width: 100%;
+		font-size: 8px
+	}
+
+	.contacts-button {
+		width: 25%;
+		font-size: 5px;
+	}
+}
