@@ -253,24 +253,28 @@ h6 {
 	background-image: url(img/img1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .block-2 {
 	background-image: url(img/img2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .block-3 {
 	background-image: url(img/img3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .block-4 {
 	background-image: url(img/img4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .title-block {
@@ -494,6 +498,11 @@ h6 {
 	font-weight: 400;
 	line-height: 40px;
 	transition: color 0.1s linear;
+}
+
+.btn-burger {
+	border: none;
+	background: transparent;
 }
 
 .nav-item {

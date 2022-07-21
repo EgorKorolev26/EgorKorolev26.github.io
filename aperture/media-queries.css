@@ -36,9 +36,20 @@
 		margin-top: 30px;
 
 	}
+
+	.icons-three {
+
+		margin-right: 7%;
+
+	}
 }
 
 @media screen and (max-width: 701px) {
+	.container {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
 	.info {
 		margin-left: 50%;
 	}
