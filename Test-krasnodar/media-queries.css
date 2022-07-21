@@ -1,0 +1,392 @@
+/* @media screen and (max-width: 1500px) {
+.container {
+	margin: auto 5%;
+	width: 100%;
+}
+
+.main__content {
+	width: 100%;
+}
+
+.footer__content {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+}
+
+@media screen and (max-width: 1160px) {
+	.bloks__item {
+		flex-wrap: wrap;
+	}
+
+	.bloks__item {
+
+		margin-right: 5%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.main__content {
+		text-align: center;
+	}
+
+	.footer__content {
+		display: block;
+		padding-bottom: 50px;
+	}
+
+	.contacts__foter {
+		margin-left: 23%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+
+	.info__items {
+		display: block;
+		text-align: center;
+		margin-right: 10px;
+	}
+
+	.button__info {
+		margin-top: 15px;
+	}
+
+	.text__info {
+		margin: 10px 10px;
+	}
+
+	.info__content {
+		display: block;
+	}
+
+	.footer {
+		margin: 10px 10px;
+	}
+}
+
+
+*/
+
+@media screen and (max-width: 1200px) {
+	.btn__left {
+		position: absolute;
+		left: -10px;
+	}
+
+
+	.btn__right {
+		position: absolute;
+		right: -35px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.main__content {
+		height: 50vh;
+	}
+
+	.main__content-page {
+		text-align: center;
+	}
+
+	.main__title {
+		text-align: center;
+	}
+
+	.main__button {
+		margin: 37px auto;
+	}
+
+	.plan {
+		padding-top: 100px;
+	}
+
+	.bloks__item {
+		flex-wrap: wrap;
+	}
+
+	.main__button {
+
+		padding: 18px 50px;
+	}
+
+	.footer__title {
+		font-size: 32px;
+	}
+
+	.contacts__foter {
+		font-size: 18px;
+	}
+
+	.footer {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navigation {
+		display: none;
+	}
+
+	.header__burger {
+		display: block;
+	}
+
+	.text__info {
+		font-size: 14px;
+	}
+
+	.button__info {
+		margin-right: 5%;
+
+	}
+
+	.footer__title {
+		font-size: 26px;
+	}
+
+	.contacts__foter {
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.main__content-title {
+		text-align: center;
+		font-size: 24px
+	}
+
+	.main__button {
+		margin-left: 19%;
+
+	}
+
+	.footer {
+		margin-top: 107px;
+		padding-bottom: 5px;
+	}
+
+	.footer__content {
+		display: block;
+
+	}
+
+	.contacts__foter {
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.main__title {
+		font-size: 24px;
+	}
+
+
+
+	.main__button {
+		margin-right: 60px;
+		font-size: 12px;
+
+	}
+
+	.info__content {
+		display: block;
+	}
+
+	.info__items {
+		display: block;
+		text-align: center;
+	}
+
+	.text__info {
+		margin-left: 10px;
+		text-align: center;
+		width: 100%;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+
+	.button__info {
+		margin-top: 15px;
+	}
+
+	.footer {
+		margin-top: 30px;
+	}
+
+	.footer__title {
+		font-size: 18px;
+	}
+
+	.contacts__footer {
+		margin: 20px 0px;
+		font-size: 14px;
+	}
+
+	.contacts__footer {
+		margin: 20px 0px;
+		margin-left: 50px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.main__title {
+		font-size: 24px;
+	}
+
+	.main__button {
+		margin-left: 15%;
+		font-size: 14px;
+
+	}
+
+	.header__navigation-adaptive {
+		font-size: 22px;
+	}
+
+	.info__content {
+		display: block;
+	}
+
+	.info__items {
+		display: block;
+		text-align: center;
+	}
+
+	.text__info {
+		font-size: 12px;
+	}
+
+	.plan {
+		padding-top: 60px;
+	}
+
+	.plan__title {
+		font-size: 26px;
+	}
+
+	.block__title {
+		font-size: 16px;
+	}
+
+	.button__price {
+		font-size: 14px;
+	}
+
+	.footer {
+		margin-top: 30px;
+	}
+
+	.footer__title {
+		font-size: 16px;
+	}
+
+	.contacts__footer {
+		margin: 20px 0px;
+		font-size: 14px;
+	}
+
+	.contacts__footer {
+		margin: 20px 0px;
+		margin-left: 50px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.main__title {
+		font-size: 20px;
+	}
+
+	.main__button {
+		font-size: 10px;
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+	.block__img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main__content-title {
+		text-align: center;
+		font-size: 14px
+	}
+
+	.main__button {
+		margin-left: 5%;
+		font-size: 14px;
+	}
+
+	.info__content {
+		display: block;
+	}
+
+	.info__items {
+		display: block;
+		text-align: center;
+	}
+
+	.text__info {
+		font-size: 12px;
+	}
+
+	.house__icon {
+		margin-bottom: 3px;
+
+	}
+
+	.plan {
+		padding-top: 70px;
+	}
+
+	.plan__title {
+		font-size: 24px;
+	}
+
+	.block__title {
+		font-size: 16px;
+	}
+
+	.button__info {
+		font-size: 12px;
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+	.block__img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.button__price {
+		font-size: 12px;
+	}
+
+	.footer {
+		margin-top: 30px;
+	}
+
+	.footer__title {
+		font-size: 16px;
+	}
+
+	.contacts__footer {
+		margin: 20px 0px;
+		font-size: 14px;
+	}
+}
