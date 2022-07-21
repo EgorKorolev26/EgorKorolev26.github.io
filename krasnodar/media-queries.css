@@ -41,8 +41,35 @@
 	}
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
+	.btn__left {
+		position: absolute;
+		left: 10%;
+	}
 
+
+	.btn__right {
+		position: absolute;
+		right: 10%;
+	}
+}
+
+
+@media screen and (max-width: 550px) {
+	.header__navigation {
+		margin-right: 25px;
+	}
+
+	.btn__left {
+		position: absolute;
+		left: 0;
+	}
+
+
+	.btn__right {
+		position: absolute;
+		right: 0;
+	}
 
 	.info__items {
 		display: block;
