@@ -131,7 +131,7 @@
 		display: none;
 	}
 
-	.header__burger {
+	.burger {
 		display: block;
 	}
 
@@ -246,7 +246,8 @@
 	}
 
 	.header__navigation-adaptive {
-		font-size: 22px;
+		font-size: 18px;
+		margin-right: 25px;
 	}
 
 	.info__content {

@@ -114,40 +114,45 @@ body {
 
 }
 
+.header__menu {
+	display: block;
+}
+
 .nav-adaptive {
 	display: block;
 	text-align: center;
+	margin-left: 30px;
 	position: absolute;
-	top: 45px;
+	top: 25px;
 	justify-content: center;
-	width: 97%;
-	height: 150px;
+	width: 80%;
+	height: 174px;
 	background: #fff;
 
 }
 
-
-
-.header__menu {
-	display: block;
-	transform: rotateY(100px);
-	transition: 0.3s ease;
-}
-
 .header__navigation-adaptive {
 	font-family: 'Gilroy', sans-serif;
-	margin-left: 54px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
 	cursor: pointer;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 17px;
-	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 22px;
 	color: #333333;
-	transition: 0.3s ease;
+	border-bottom: 2px solid #333333;
+
 }
 
-.header__navigation-adaptive:hover {}
+.header__navigation-adaptive:nth-child(4) {
+	border: none;
+}
+
+.header__navigation-adaptive:hover {
+	background-color: #AFAFAF;
+}
 
 .header__navigation {
 	margin-left: 54px;
@@ -158,59 +163,53 @@ body {
 	line-height: 17px;
 }
 
-.header__burger {
+.burger {
+
 	display: none;
-	position: relative;
 	width: 30px;
 	height: 20px;
-	z-index: 10;
+	cursor: pointer;
+	position: relative;
+	z-index: 50;
+	left: 10px;
 }
 
-.header__burger span {
-	position: absolute;
-	background: #000;
-	left: 0;
+.burger__line {
+	display: block;
 	width: 100%;
 	height: 3px;
-	top: 9px;
-	transition: all 0.3s ease 0s;
-}
-
-.header__burger::before,
-.header__burger::after {
-	content: '';
 	background-color: #000;
 	position: absolute;
-	width: 100%;
-	height: 3px;
 	left: 0;
-	transition: all 0.3s ease 0s;
+	transition: .3s all linear;
 }
 
-.header__burger.activespan {
-	transform: scale(0);
-
-}
-
-.header__burger.active::before {
-	transform: rotate(45deg);
-	top: 9px;
-}
-
-.header__burger.active::after {
-	transform: rotate(-45deg);
-	bottom: 9px;
-}
-
-.header__burger::before {
+.burger__line_first {
 	top: 0;
 }
 
-.header__burger::after {
-	bottom: 0;
-
+.burger__line_second,
+.burger__line_third {
+	top: 50%;
+	transform: translateY(-50%);
 }
 
+.burger__line_fourth {
+	bottom: 0;
+}
+
+.burger_active .burger__line_first,
+.burger_active .burger__line_fourth {
+	opacity: 0;
+}
+
+.burger_active .burger__line_second {
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.burger_active .burger__line_third {
+	transform: translateY(-50%) rotate(-45deg);
+}
 
 
 .disp {
