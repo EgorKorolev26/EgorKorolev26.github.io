@@ -171,7 +171,8 @@ body {
 	cursor: pointer;
 	position: relative;
 	z-index: 50;
-	left: 10px;
+	left: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .burger__line {
