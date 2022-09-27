@@ -1,0 +1,674 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+.header {
+	background-color: #000;
+}
+
+.container {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.header_up {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 0px;
+
+}
+
+.header_info {
+	display: flex;
+
+}
+
+.registration {
+	display: flex;
+
+}
+
+.enter-image {
+	margin-right: 15px;
+}
+
+.img-reg {}
+
+
+
+
+.menu-open {
+	display: none;
+}
+
+.tell-text {
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: #969696;
+	margin-right: 15px;
+	text-decoration: none;
+	transition: color 0.2s linear;
+
+}
+
+.tell-text:hover {
+	color: #fff;
+}
+
+.header_title {
+	color: #969696;
+}
+
+.reg-text {
+	font-family: 'PT Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: #969696;
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+
+.reg-text:hover {
+	color: #fff;
+}
+
+.phone-img {
+	margin-right: 15px;
+}
+
+.header-holder-down {
+	background-color: #0F0F0F;
+}
+
+.header_down {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 0px;
+	align-items: center;
+	max-height: 59px;
+
+}
+
+.nav {
+	display: flex;
+
+}
+
+.btn {
+	padding: 20px 30px;
+
+}
+
+.nav_link {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #969696;
+	transition: color 0.2s linear;
+}
+
+.nav_link:hover {
+	color: #fff;
+}
+
+.btn {
+
+	transition: background-color 0.2s linear;
+}
+
+.btn:hover {
+	background-color: #1F1F1F;
+
+}
+
+
+
+.page_info {
+	display: flex;
+	justify-content: center;
+	padding-top: 250px;
+
+}
+
+.prev {
+
+	border: 3px solid #fff;
+	padding: 90px 50px;
+}
+
+.title {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	border-top: 2px solid #fff;
+	margin-top: 9px;
+	padding-top: 9px;
+}
+
+.logo_page {
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.desc {
+	padding-top: 80px;
+	padding-bottom: 154px;
+	margin: 0px 250px;
+}
+
+.desc_text {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.season {
+	background: #000;
+	width: 50%;
+
+
+}
+
+
+.season_items {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 35px;
+	margin-top: 50px;
+}
+
+.line {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.season_title {
+	color: #fff;
+	font-family: 'Playfair Display';
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+
+	padding-top: 50px;
+}
+
+.img_title {
+	color: #D0D0D0;
+	text-align: center;
+	font-family: 'Playfair Display';
+	font-size: 18px;
+	line-height: 21px;
+	padding-top: 25px;
+
+}
+
+.img_text {
+	color: #D0D0D0;
+	text-align: center;
+
+	font-family: 'Playfair Display';
+	font-size: 16px;
+	line-height: 19px;
+	padding-top: 10px;
+}
+
+.img-item {
+	background-color: #191B1C;
+	padding: 0px 95px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+.clock {
+	width: 13%;
+	margin-right: 130px;
+
+
+}
+
+.clock_image {}
+
+
+.collection {
+	background-image: url(img/bg-collection.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.collection-and-seasons {
+	display: flex;
+}
+
+.collection-title {
+	color: #fff;
+	font-family: 'Playfair Display';
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 370px;
+	padding-bottom: 15px;
+}
+
+.img-item {
+	width: 33%;
+
+}
+
+.collection-line {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+
+.buton {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.button {
+	color: #fff;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	padding: 15px 35px;
+}
+
+
+.catalog {
+	display: flex;
+	background-color: #000;
+}
+
+.suit {
+	background-image: url(img/suit.jpg);
+	background-size: cover;
+	width: 45%;
+}
+
+.catalog-2018 {
+	width: 55%;
+}
+
+.catalog-title {
+	font-family: 'Playfair Display';
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 100px;
+	padding-bottom: 40px;
+}
+
+.catalog-line {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.catalog-desc {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	/* or 21px */
+	color: #fff;
+	text-align: center;
+	margin-left: 160px;
+	margin-right: 160px;
+	padding-bottom: 75px;
+}
+
+.catalog-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.New_Arrivals {
+	background-color: #000;
+}
+
+.container {
+	margin-left: 200px;
+}
+
+.arivals_title {
+	color: #fff;
+	font-family: 'Playfair Display';
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.arivals_line {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.clock-item {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+
+.our_brends {
+	background-color: #0F0F0F;
+	padding-top: 60px;
+}
+
+.brends_title {
+	font-family: 'Playfair Display';
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+.brends_line {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.brends_image {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+}
+
+.info {
+	background-image: url(img/info-bg.jpg);
+	background-size: cover;
+}
+
+.info_blocks {
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.shop {
+	width: 33%;
+}
+
+.category {
+	width: 33%;
+}
+
+.Mailing {
+	width: 33%;
+}
+
+.shops_title {
+	font-family: 'Playfair Display';
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 40px;
+}
+
+.shops_desc {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #fff;
+
+}
+
+.category_title {
+	font-family: 'Playfair Display';
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 40px;
+	margin-left: 10px;
+}
+
+.category-btn_up {
+	display: flex;
+	justify-content: start;
+	padding-bottom: 20px;
+}
+
+.category-btn_down {
+	display: flex;
+	justify-content: start;
+
+}
+
+.cat-btn {
+	background-color: #000;
+	color: #fff;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	margin-left: 10px;
+	padding: 10px 10px;
+
+}
+
+.Mailing_title {
+	font-family: 'Playfair Display';
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 40px;
+
+}
+
+.Mailing_desc {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.link {
+	display: flex;
+}
+
+.input_email {
+	background: rgba(255, 255, 255, );
+	color: #000;
+	padding: 0.475rem 0.85rem;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 135%;
+}
+
+.link_butn {
+	background-color: #0F0F0F;
+	color: #000;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+
+	padding: 10px 10px;
+}
+
+.link-a {
+	color: #fff;
+}
+
+
+.footer {
+	background-color: #0F0F0F;
+}
+
+.footer_text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0;
+	color: #fff;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+
+.button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.burger-slide {
+	position: absolute;
+	display: block;
+}
+
+.disp {
+	display: none;
+}
+
+.burger-menu {
+	display: none;
+}

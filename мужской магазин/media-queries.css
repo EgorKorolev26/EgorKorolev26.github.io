@@ -1,0 +1,362 @@
+@media screen and (max-width: 1700px) {
+
+
+	.shop {
+		width: 20%;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+	..desc {
+		display: flex;
+		justify-content: center;
+
+
+	}
+
+	.collection-and-seasons {
+		display: block;
+
+	}
+
+	.season {
+		width: 100%;
+	}
+
+	..season_items {
+		display: flex;
+
+
+	}
+
+	.clock {
+		margin: 0 auto;
+	}
+
+	.collection {
+		height: 100vh;
+	}
+
+	.collection-title {
+		margin-top: 0px;
+		padding-top: 200px;
+	}
+
+	.brends_image {
+		display: flex;
+		justify-content: center;
+	}
+
+	.collection {
+		max-height: 50vh;
+	}
+
+	.season {
+		padding-bottom: 50px;
+	}
+
+	.info_blocks {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.Mailing {
+		padding-top: 100px;
+		width: 70%;
+	}
+
+	.category {}
+}
+
+@media screen and (max-width: 1165px) {
+	.brends_image {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.img-item {
+		padding: 0px 80px;
+	}
+
+	.collection {
+		max-height: 50vh;
+	}
+
+}
+
+@media screen and (max-width: 1120px) {
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.category {
+		margin-right: 50px;
+		margin-top: 150px;
+	}
+
+	.shops_desc {
+		width: 70%;
+
+	}
+
+	.info_blocks {
+		display: block;
+		;
+		margin-left: 200px;
+	}
+
+	.shop {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.brends_image {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.img-item {
+		padding: 0px 55px;
+	}
+
+	.clock_image {
+		max-height: 135px;
+	}
+
+}
+
+@media screen and (max-width: 999px) {
+	.container {
+		margin: 0 auto;
+	}
+
+	.menu-open {
+		display: block;
+
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.header_up {
+		display: block;
+	}
+
+	.burger-menu {
+		display: block;
+		margin-right: 50px;
+
+	}
+
+	.header_down {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.desc {
+		margin: 0px 150px;
+	}
+
+	.collection-and-seasons {
+		display: block;
+	}
+
+	.season {
+		width: 100%;
+	}
+
+	..season_items {
+		margin: 0 auto;
+	}
+
+	.img-item {
+		padding: 0px 55px;
+	}
+
+	.clock_image {
+		max-height: 150px;
+	}
+
+	.arivals_title {
+		margin-left: 4px;
+	}
+
+	.arivals_line {
+		margin-left: 40px;
+	}
+
+	.brends_image {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.clock-item {
+		margin-right: 70px;
+	}
+
+	.info_blocks {
+		flex-wrap: wrap;
+	}
+
+	.category {}
+
+	.Mailing {
+
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	.collection-and-seasons {
+		display: block;
+	}
+
+	.season {
+		width: 100%;
+	}
+
+	..season_items {
+		display: flex;
+
+
+	}
+
+	.clock {
+		margin: 0 auto;
+	}
+
+	.img-item {
+		padding: 0px 45px;
+	}
+
+	.clock_image {
+		max-height: 120px;
+	}
+
+	.suit {
+		display: none;
+	}
+
+	.catalog-2018 {
+		margin: 0 auto;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	.season {
+		padding-bottom: 50px;
+	}
+
+	@media screen and (max-width: 767px) {
+
+
+		.menu-open {
+			display: block;
+
+		}
+
+		.header_up {
+			display: block;
+		}
+
+		.header_down {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.desc_text {
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+
+		.catalog-desc {
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+
+		.container {
+			width: 540px;
+			margin: 0 auto;
+		}
+
+		.desc {
+			margin: 0 auto;
+		}
+
+
+	}
+
+	@media screen and (max-width: 575px) {
+		.container {
+
+			margin: 0 auto;
+		}
+
+		.header_down {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.logo {
+			margin-left: 50px;
+		}
+
+		.menu-open {
+			margin-right: 30px;
+		}
+
+		.collection {
+			max-height: 25vh;
+
+		}
+
+		.collection-info {}
+
+
+	}
+
+	@media screen and (max-width: 510px) {
+		.menu-open {
+			margin-right: 100px;
+		}
+
+		.collection-title {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+		.info_blocks {
+			margin-left: 100px;
+		}
+
+		.brends {
+			width: 90%;
+		}
+
+		.arivals {
+			width: 90%;
+		}
+	}
+
+	.footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 460px) {
+		.arivals_title {
+			width: 90%;
+		}
+	}
