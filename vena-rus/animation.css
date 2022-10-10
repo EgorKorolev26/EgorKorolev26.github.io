@@ -1,0 +1,233 @@
+/* Волна на сайте */
+
+.wave {
+	background: url(img/wave.svg);
+	background-position-x: center;
+	position: absolute;
+	z-index: -100000;
+	top: 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+	transform: translate3d(0, 0, 0);
+}
+
+
+/* @keyframes wave {
+	100% {
+		transform: translateX(-100%);
+	}
+
+
+	100% {
+		transform: translatey(10%);
+	}
+} */
+/* Бегущая строка */
+.run-text {
+	text-align: left;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.run-text span {
+	display: inline-block;
+	width: 100%;
+	text-indent: 0;
+	animation: run-text 10s linear infinite;
+}
+
+.run-text span:hover {
+	animation-play-state: paused;
+}
+
+@keyframes run-text {
+	0% {
+		transform: translate(-100%, 0);
+	}
+
+	100% {
+		transform: translate(100%, 0);
+	}
+}
+
+/* Анимация вращения 1 иконки */
+
+.circle {
+	width: 134px;
+	height: 134px;
+	border-radius: 50%;
+	background-color: #590D56;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.circle-rotation {
+	-webkit-animation-name: rotation;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotation;
+	-moz-animation-duration: 5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-o-animation-name: rotation;
+	-o-animation-duration: 5s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	animation-name: rotation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotation {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(720deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+/* 
+Анимация пульса */
+
+.circle-big {
+	content: ''; // 
+	position: absolute;
+	border: 2px solid #3D64FF;
+	left: -20px;
+	opacity: 0;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	animation: circle-big 2.5s linear infinite;
+}
+
+@keyframes circle-big {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+
+.circle-big::after,
+.circle-big::before {
+	content: '';
+	position: absolute;
+	border: 2px solid #fff;
+	left: -20px;
+	opacity: 0;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	animation: circle-big 2.5s linear infinite;
+}
+
+.circle-big::after {
+	animation-delay: 1.25s;
+}
+
+@keyframes circle-big {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+
+.circle-big {
+	border: #fff solid 1px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-small {
+	border: #fff solid 1px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
