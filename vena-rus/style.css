@@ -348,4 +348,34 @@ futures */
 	color: #000000;
 }
 
+.decorate-icons {
+	margin-top: 35px;
+	margin-left: 20px;
+}
 
+.circle-decorate {
+	position: relative;
+}
+
+.lines {
+	position: absolute;
+}
+
+.ellipse-one {
+	left: -15px;
+}
+
+.ellipse-two {
+	right: -15px;
+}
+
+.arrows {}
+
+.arrow-one {
+	left: 0;
+}
+
+.arrow-two {
+	right: 0;
+	bottom: 27px;
+}

@@ -14,7 +14,7 @@
 }
 
 
-/* @keyframes wave {
+@keyframes wave {
 	100% {
 		transform: translateX(-100%);
 	}
@@ -23,7 +23,8 @@
 	100% {
 		transform: translatey(10%);
 	}
-} */
+}
+
 /* Бегущая строка */
 .run-text {
 	text-align: left;
@@ -32,14 +33,14 @@
 	white-space: nowrap;
 }
 
-.run-text span {
+.run-text h2 {
 	display: inline-block;
 	width: 100%;
 	text-indent: 0;
 	animation: run-text 10s linear infinite;
 }
 
-.run-text span:hover {
+.run-text h2:hover {
 	animation-play-state: paused;
 }
 
