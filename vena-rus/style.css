@@ -122,6 +122,7 @@
 	border-radius: 33.5px;
 	background-color: #590D56;
 	border: 1px solid #fff;
+	cursor: pointer;
 
 }
 
@@ -165,7 +166,7 @@
 /* 
 2section */
 .action__text {
-	margin-top: 150px;
+	margin-top: 300px;
 	border: #590D56 2px solid;
 }
 
@@ -193,12 +194,6 @@
 
 
 
-@media only screen and (max-width: 440px) {
-	.marquee span {
-		animation: none;
-		padding-left: 0
-	}
-}
 
 
 /* 
@@ -206,7 +201,7 @@ futures */
 
 .futures {
 	margin-top: 130px;
-	margin-bottom: 500px;
+
 }
 
 .futures__elements-icons {
@@ -378,4 +373,140 @@ futures */
 .arrow-two {
 	right: 0;
 	bottom: 27px;
+}
+
+
+
+/* !!!!!section about production~!!!!! */
+
+.about-production {
+	position: relative;
+	top: -50px;
+	background-image: url(img/volna2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 130vh;
+	width: 100%;
+	background-position: center;
+
+}
+
+.about-production__content {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.about-production__content>h2 {
+	margin-top: 150px;
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	color: #000000;
+}
+
+.about-production__content-sliderVideo {
+	display: flex;
+	align-items: center;
+	margin-top: 300px;
+}
+
+.about-production__content-sliderVideo-slider {
+	width: 458px;
+	height: 270px;
+	background-color: #fff;
+
+}
+
+.production__button-slider {}
+
+.button-sliderVideo {
+	margin-top: 130px;
+	margin-left: 300px;
+	font-family: 'Roboto';
+	max-width: 263px;
+	width: 100%;
+	height: 68px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 33.5px;
+	background-color: #590D56;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.btn-production {
+	margin-left: 30px;
+	position: relative;
+	z-index: 1000;
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 100;
+	height: 58px;
+	width: 58px;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid #FFFFFF;
+	background-color: #590D56;
+}
+
+
+.btn-play {
+	margin-top: 100px;
+	margin-left: 196px;
+	cursor: pointer;
+}
+
+
+/* !!!!section opinion!!!! */
+.opinion {
+	margin-top: 100px;
+}
+
+.opinion__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.opinion__content-title>h2 {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	color: #000000;
+}
+
+.opinion__content-title>p {
+	margin-top: 26px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 154.8%;
+	color: #777777;
+	white-space: nowrap;
+}
+
+.opinion__content-slider {
+	/* width: 847px;
+	height: 570px; */
+	background-image: url(img/slider-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+
 }

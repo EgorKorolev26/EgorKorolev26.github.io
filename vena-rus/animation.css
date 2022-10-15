@@ -6,14 +6,15 @@
 	position: absolute;
 	z-index: -100000;
 	top: 0;
-	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: repeat-x;
 	width: 100%;
-	height: 100vh;
+	height: 130vh;
 	animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
 	transform: translate3d(0, 0, 0);
 }
 
-
+/* 
 @keyframes wave {
 	100% {
 		transform: translateX(-100%);
@@ -21,9 +22,9 @@
 
 
 	100% {
-		transform: translatey(10%);
+		transform: translatex(10%);
 	}
-}
+} */
 
 /* Бегущая строка */
 .run-text {
@@ -232,3 +233,5 @@
 	height: 10px;
 	border-radius: 50%;
 }
+
+
