@@ -20,3 +20,7 @@ info.addEventListener('click', function () {
 	popUp.classList.toggle('disp');
 });
 
+
+
+
+

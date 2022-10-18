@@ -16,7 +16,7 @@
 
 /* 
 @keyframes wave {
-	100% {
+	0% {
 		transform: translateX(-100%);
 	}
 
